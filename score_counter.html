@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>BasketBall Score Counter</title>
+        <link rel="stylesheet" href="score_counter.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+            </div>
+        </div>
+        <div class="organize">
+        <div class="counter">
+                <p id="homie">0</p>
+        </div>
+        <div class="counter">
+            <p id="guess">0</p>
+        </div>
+        </div>
+        <div class="organize">
+        <div class="organize">
+            <button id= "increment-btn" onclick="increment1_home()">+1</button>
+            <button id= "increment-btn" onclick="increment2_home()">+2</button>
+            <button id= "increment-btn" onclick="increment3_home()">+3</button>
+        </div>
+        <div class="organize">
+            <button id="increment-btn" onclick="increment1_guest()">+1</button>
+            <button id="increment-btn" onclick="increment2_guest()">+2</button>
+            <button id="increment-btn" onclick="increment3_guest()">+3</button>
+        </div>
+        </div>
+        <div class="organize">
+            <button onclick="reset()">reset</button>
+        </div>
+    </body>
+    <script src="score_counter.js"></script>
+</html>
